@@ -177,10 +177,12 @@ header ul li a:hover:before {
 .encabezado .contenido__encabezado .titulo__encabezado {
   text-align: center;
   color: black;
+  margin-bottom: 15px;
 }
 .encabezado .contenido__encabezado .descripcion__encabezado {
   text-align: center;
   color: black;
+  line-height: 20px;
 }
 /* Encabezado-mouse-animacion */
 .boton__encabezado {
