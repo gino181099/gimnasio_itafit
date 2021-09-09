@@ -612,12 +612,13 @@ li {
   color: #ffffff;
   text-transform: uppercase;
   padding: 10px;
+  background: #0005;
   backdrop-filter: blur(20px);
 }
 .grid__overlay button:hover {
   transition: all 0.3s ease-in-out;
   background: #ffffff;
-  color: #d1a39e;
+  color: #000;
   transform: scale(1.05);
 }
 
