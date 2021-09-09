@@ -165,17 +165,18 @@ header ul li a:hover:before {
   flex-direction: column;
   width: 70%;
   margin: auto;
-  background: #0009;
+  background: #fff1;
+  backdrop-filter: blur(20px);
   padding: 10px;
   border-radius: 15px;
 }
 .encabezado .contenido__encabezado .titulo__encabezado {
   text-align: center;
-  color: white;
+  color: black;
 }
 .encabezado .contenido__encabezado .descripcion__encabezado {
   text-align: center;
-  color: white;
+  color: black;
 }
 /* Encabezado-mouse-animacion */
 .boton__encabezado {
@@ -251,7 +252,7 @@ header ul li a:hover:before {
 .scroll-btn > *:hover,
 .scroll-btn > *:focus,
 .scroll-btn > *.active {
-  color: #ffffff;
+  color: #000;
 }
 .scroll-btn > *:hover,
 .scroll-btn > *:focus,
@@ -268,7 +269,7 @@ header ul li a:hover:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border: 3px solid white;
+  border: 3px solid black;
   border-radius: 23px;
 }
 .scroll-btn .mouse > * {
@@ -279,7 +280,7 @@ header ul li a:hover:before {
   width: 8px;
   height: 8px;
   margin: -4px 0 0 -4px;
-  background: white;
+  background: black;
   border-radius: 50%;
   -webkit-animation: ani-mouse 2.5s linear infinite;
   -moz-animation: ani-mouse 2.5s linear infinite;
