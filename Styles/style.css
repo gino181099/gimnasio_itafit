@@ -11,6 +11,9 @@
 section {
   padding: 100px;
 }
+h2{
+  font-size: 36px;
+}
 /*----------LogoMenu----------*/
 header {
   position: fixed;
@@ -164,10 +167,11 @@ header ul li a:hover:before {
   display: flex;
   flex-direction: column;
   width: 70%;
+  max-width: 600px;
   margin: auto;
-  background: #fff1;
+  background: #fff5;
   backdrop-filter: blur(20px);
-  padding: 10px;
+  padding: 30px;
   border-radius: 15px;
 }
 .encabezado .contenido__encabezado .titulo__encabezado {
@@ -337,7 +341,7 @@ header ul li a:hover:before {
 .servicios {
   display: flex;
   flex-wrap: wrap;
-  background: black;
+  background: #151515;
 }
 .servicios .titulo__servicios {
   display: flex;
@@ -345,6 +349,10 @@ header ul li a:hover:before {
   width: 100%;
   text-align: center;
   color: white;
+}
+.servicios .titulo__servicios h3{
+  font-size: 36px;
+  margin-bottom: 50px;
 }
 .servicios .titulo__servicios h3::after {
   content: "";
@@ -679,7 +687,7 @@ li {
   justify-content: center;
   padding-left: 0;
   padding-right: 0;
-  background-color: black;
+  background-color: #151515;
 }
 .cronograma .titulo__cronograma {
   display: flex;
@@ -867,7 +875,7 @@ li {
   display: flex;
   padding-top: 50px;
   padding-bottom: 50px;
-  background: black;
+  background: #151515;
   justify-content: center;
   flex-direction: column;
 }
